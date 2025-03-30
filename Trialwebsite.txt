@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rounak Kharait - Personal Branding</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+        header { background: url('header-image.jpg') no-repeat center center/cover; color: white; padding: 60px; text-align: center; }
+        nav { background: #444; padding: 10px; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; }
+        section { padding: 40px; text-align: center; color: white; position: relative; }
+        section::before { content: ""; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5); z-index: 0; }
+        section * { position: relative; z-index: 1; }
+        #about { background: url('about-bg.jpg') no-repeat center center/cover; }
+        #books { background: url('books-bg.jpg') no-repeat center center/cover; }
+        #testimonials { background: url('testimonials-bg.jpg') no-repeat center center/cover; }
+        #blog { background: url('blog-bg.jpg') no-repeat center center/cover; }
+        #contact { background: url('contact-bg.jpg') no-repeat center center/cover; }
+        footer { background: #333; color: white; text-align: center; padding: 10px; position: fixed; bottom: 0; width: 100%; }
+        a.button { background-color: #ffcc00; padding: 10px 20px; text-decoration: none; color: black; border-radius: 5px; display: inline-block; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rounak Kharait</h1>
+        <p>Author | Speaker | Thought Leader</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#books">Books</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Mr. Kharait has over fifteen years of experience where he has built successful teams in the largest renewable energy companies in the world. He holds a couple of master’s degrees in engineering. He lives in San Diego, CA with his wife Gauri and daughter Ruhee and son Ridaan.</p>
+    </section>
+    <section id="books">
+        <h2>My Books</h2>
+        <p>Explore my latest books and purchase them online.</p>
+        <a href="https://www.amazon.com/dp/B0DW8T5TG4?ref=cm_sw_r_ffobk_cp_ud_dp_4NNXB8M71SCRNHYF4H4X&ref_=cm_sw_r_ffobk_cp_ud_dp_4NNXB8M71SCRNHYF4H4X&social_share=cm_sw_r_ffobk_cp_ud_dp_4NNXB8M71SCRNHYF4H4X&bestFormat=true" class="button" target="_blank">Buy on Amazon</a>
+    </section>
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+        <p>See what others have to say about my work.</p>
+    </section>
+    <section id="blog">
+        <h2>Blog</h2>
+        <p>Read my latest thoughts and insights.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Get in touch for media inquiries or speaking engagements.</p>
+        <p>Email: <a href="mailto:kharaitrounak24@gmail.com">kharaitrounak24@gmail.com</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Rounak Kharait. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
